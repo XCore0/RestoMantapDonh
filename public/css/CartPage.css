@@ -1,0 +1,257 @@
+.column-5 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.cart-page {
+    gap: 94px;
+    background: linear-gradient(180deg, #0d1b2a, #000000);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 20px;
+
+    @media only screen and (max-width: 1050px) {
+        gap: 70px;
+    }
+
+    @media only screen and (max-width: 550px) {
+        gap: 47px;
+    }
+}
+
+.stacksearch {
+    height: 754px;
+    position: relative;
+}
+
+.column_three-2 {
+    flex: 1;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    margin: auto;
+}
+
+.rowrestoranmant-4 {
+    margin-bottom: 128px;
+}
+
+.columncart_one {
+    width: 66%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media only screen and (max-width: 1050px) {
+        width: 100%;
+    }
+}
+
+.columnnasiayamb-9 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 8px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    @media only screen and (max-width: 1050px) {
+        padding: 0 var(--space-3xl);
+    }
+}
+
+.rownasiayambaka-1 {
+    background-color: var(--indigo_700);
+    box-shadow: var(--shadow-xs);
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    padding: var(--space-5xl);
+    border-radius: var(--radius-sm);
+    margin-bottom: 20px;
+    width: 100%;
+    gap: 20px;
+    align-items: center;
+    /* Add gap between items */
+}
+
+/* Style for individual cart items */
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* Spasi antara gambar dan detail */
+    padding: 15px;
+    width: 100%;
+    /* Lebar penuh */
+    max-width: 1000px;
+    /* Maksimum lebar item */
+    margin: 0 auto;
+    /* Center item horizontally */
+}
+
+.image-19 {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: var(--radius-xs);
+    margin-right: 15px;
+    /* Jarak antara gambar dan detail */
+}
+
+.cart-item-details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+    /* Membiarkan detail mengambil ruang yang tersisa */
+}
+
+.rpcounter-8,
+.rpcounter-9,
+.hapus {
+    margin: 0;
+}
+
+.row-4 {
+    margin-top: 14px;
+    padding: 0 var(--space-15xl);
+    gap: 8px;
+    display: flex;
+    width: 28%;
+    justify-content: center;
+    align-items: center;
+
+    @media only screen and (max-width: 1050px) {
+        width: 100%;
+        padding: 0 var(--space-3xl);
+    }
+}
+
+.groupfiftyfour {
+    color: var(--black_900) !important;
+    padding: 0 var(--space-2xl);
+    width: 40px;
+    border-radius: var(--radius-xs);
+}
+
+.hapus {
+    color: var(--red_a700) !important;
+    cursor: pointer;
+    text-align: center;
+}
+
+.rowringkasan {
+    background-color: var(--indigo_700);
+    box-shadow: var(--shadow-xs);
+    display: flex;
+    flex-direction: column;
+    padding: var(--space-lg);
+    border-radius: var(--radius-sm);
+}
+
+.linefive_one {
+    height: 1px;
+    background-color: var(--white_a700);
+    width: 40%;
+    margin: 10px 0;
+}
+
+.rowsubtotal,
+.rowtotalakhir {
+    margin: 20px 0;
+    display: flex;
+    width: 400px;
+    text-align: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: var(--space-3xl);
+
+    @media only screen and (max-width: 1050px) {
+        margin: 0;
+    }
+}
+
+.lanjutkan_ke {
+    margin-top: 14px;
+    align-self: flex-end;
+    min-width: 200px;
+    border-radius: 16px !important;
+}
+
+/* Style for quantity input */
+.quantity-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Style for quantity increase and decrease buttons */
+.quantity-decrease,
+.quantity-increase {
+    cursor: pointer;
+    padding: 0 10px;
+    margin: 8px;
+    background-color: #f0f0f0;
+    border-radius: var(--radius-xs);
+    cursor: pointer;
+}
+
+.quantity-decrease p,
+.quantity-increase p {
+    margin: 0;
+    color: black !important;
+    /* Menetapkan warna teks menjadi hitam */
+    margin: 0;
+    /* Menghapus margin default untuk teks */
+    font-size: 18px;
+    /* Sesuaikan ukuran font sesuai kebutuhan */
+}
+
+/* Style for quantity input field */
+.groupfiftyfour {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 30px;
+    background-color: #e0e0e0;
+    border-radius: var(--radius-xs);
+}
+
+.groupfiftyfour input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    padding: 0;
+}
+
+.groupfiftyfour input:focus {
+    outline: none;
+}
+
+.cart-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.cart-table th,
+.cart-table td {
+    border-bottom: 1px solid #e0e0e0;
+    padding: 8px;
+    text-align: center;
+    color: #e0e0e0;
+}
+
+.cart-table img {
+    max-width: 100px;
+    height: 100px;
+}

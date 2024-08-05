@@ -1,0 +1,327 @@
+.first_name {
+    width: 100%;
+    border-radius: 16px !important;
+}
+
+.rowtwo {
+    gap: var(--space-xs);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email-10 {
+    min-width: 360px;
+    border-radius: 16px !important;
+}
+
+.gopay {
+    color: var(--black_900_b2) !important;
+    gap: var(--space-9xl);
+    align-self: stretch;
+    border-radius: 16px !important;
+}
+
+.rectangle-56 {
+    width: 28px;
+    height: 28px;
+}
+
+.rowringkasan-1 {
+    background-color: var(--indigo_700);
+    box-shadow: var(--shadow-xs);
+    flex: 1;
+    width: 100%;
+    display: flex;
+    padding: var(--space-md);
+    border-radius: var(--radius-sm);
+}
+
+.rowrestoranmant-5 {
+    margin-bottom: 158px;
+}
+
+.isidetaildi {
+    margin-top: -20px;
+    position: relative;
+}
+
+.footerformulird {
+    gap: var(--space-11xl);
+    display: flex;
+    background: linear-gradient(180deg, #0d1b2a, #000000);
+    justify-content: center;
+    align-items: start;
+    padding: var(--space-5xl);
+
+    @media only screen and (max-width: 1050px) {
+        flex-direction: column;
+    }
+
+    @media only screen and (max-width: 550px) {
+        padding: var(--space-3xl);
+    }
+}
+
+.columnkonfirmas {
+    align-self: center;
+    background-color: var(--indigo_700);
+    box-shadow: var(--shadow-xs);
+    width: 37%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 28px 38px;
+    border-radius: var(--radius-sm);
+
+    @media only screen and (max-width: 1050px) {
+        width: 100%;
+        padding: var(--space-3xl);
+    }
+}
+
+.columnformulird {
+    margin-left: 10px;
+    width: 54%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+    @media only screen and (max-width: 1050px) {
+        width: 100%;
+        margin-left: 0px;
+    }
+}
+
+.columnone {
+    margin-top: 30px;
+    gap: var(--space-5xl);
+    display: flex;
+    align-self: stretch;
+    flex-direction: column;
+}
+
+.rowone {
+    gap: var(--space-md);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media only screen and (max-width: 550px) {
+        flex-direction: column;
+    }
+}
+
+.rowfirst_name {
+    gap: var(--space-lg);
+    display: flex;
+    flex: 1;
+
+    @media only screen and (max-width: 550px) {
+        align-self: stretch;
+    }
+}
+
+.rowmenu_one {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    @media only screen and (max-width: 1050px) {
+        width: 100%;
+    }
+}
+
+
+.columnmetode {
+    margin-top: 52px;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.columngopay {
+    gap: 16px;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+}
+
+.konfirmasi {
+    align-self: end;
+    min-width: 200px;
+    border-radius: 16px !important;
+}
+
+.cart_page_one {
+    margin-top: 8px;
+    margin-left: 40px;
+    gap: var(--space-10xl);
+    display: flex;
+    width: 34%;
+    flex-direction: column;
+
+    @media only screen and (max-width: 1050px) {
+        width: 100%;
+        margin-left: 0px;
+    }
+}
+
+.columnringkasan-1 {
+    margin-bottom: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.linefive_one-1 {
+    height: 1px;
+    background-color: var(--white_a700);
+    width: 48%;
+}
+
+.rowsubtotal-1 {
+    margin-top: 20px;
+    align-self: stretch;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: var(--space-3xl);
+}
+
+.rowtotalakhir-1 {
+    margin-top: 40px;
+    align-self: end;
+    width: 78%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: var(--space-3xl);
+
+    @media only screen and (max-width: 1050px) {
+        width: 100%;
+    }
+}
+
+.rowdetail {
+    margin-bottom: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.image-20 {
+    height: 90px;
+    margin-bottom: 24px;
+    align-self: end;
+    width: 90px;
+    object-fit: cover;
+    border-radius: var(--radius-sm);
+}
+
+.columndetail {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.linefive_one-2 {
+    height: 1px;
+    margin-left: 14px;
+    background-color: var(--white_a700);
+    width: 58%;
+
+    @media only screen and (max-width: 1050px) {
+        margin-left: 0px;
+    }
+}
+
+.nasiayambakar-2 {
+    margin-top: 6px;
+    margin-left: 12px;
+
+    @media only screen and (max-width: 1050px) {
+        margin-left: 0px;
+    }
+}
+
+.rpcounter-10 {
+    margin-left: 14px;
+
+    @media only screen and (max-width: 1050px) {
+        margin-left: 0px;
+    }
+}
+
+.qtytwo {
+    margin-top: -4px;
+    margin-left: 12px;
+    position: relative;
+
+    @media only screen and (max-width: 1050px) {
+        margin-left: 0px;
+    }
+}
+
+.rowtotal {
+    margin-top: 18px;
+    gap: var(--space-6xl);
+    align-self: end;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.radio-button-container {
+    display: flex;
+    gap: var(--space-xs);
+    /* Jarak antara tombol-tombol */
+}
+
+.radio-button {
+    position: absolute;
+    opacity: 0;
+    /* Sembunyikan elemen input asli */
+    width: 0;
+    height: 0;
+}
+
+.payment-method {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: var(--space-sm);
+    border: 2px solid var(--gray_300);
+    border-radius: 16px;
+    cursor: pointer;
+    background-color: var(--white_a700) !important;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.payment-method img.rectangle-56 {
+    width: 28px;
+    height: 28px;
+    margin-right: var(--space-xs);
+}
+
+.payment-method span {
+    color: var(--black_900_b2);
+}
+
+.radio-button:checked+.payment-method {
+    border-color: var(--blue);
+    /* Warna border saat dipilih */
+    background-color: var(--light-blue);
+    /* Warna latar belakang saat dipilih */
+}
+
+.radio-button:checked+.payment-method span {
+    color: var(--light-blue) !important;
+    /* Warna teks saat dipilih */
+}

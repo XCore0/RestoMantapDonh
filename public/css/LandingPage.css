@@ -1,0 +1,35 @@
+.rowlogin {
+    margin-right: 64px;
+    width: 44%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media only screen and (max-width: 1050px) {
+        flex-direction: column;
+        width: 100%;
+        padding: var(--space-3xl);
+        margin-right: 0px;
+    }
+}
+
+.login {
+    margin-left: 24px;
+    flex: 1;
+
+    @media only screen and (max-width: 1050px) {
+        align-self: stretch;
+        margin-left: 0px;
+    }
+}
+
+.register {
+    margin-left: 14px;
+    flex: 1;
+
+    @media only screen and (max-width: 1050px) {
+        margin-left: 0px;
+        align-self: stretch;
+    }
+
+}

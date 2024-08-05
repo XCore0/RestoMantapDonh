@@ -1,0 +1,115 @@
+.stacknasiayamba {
+    height: 634px;
+    position: relative;
+}
+
+.row_one-2 {
+    padding-top: 84px;
+    padding-bottom: 84px;
+    background: linear-gradient(180deg, #0d1b2a, #000000);
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    top: 0px;
+    height: max-content;
+    margin: auto;
+
+    @media only screen and (max-width: 1050px) {
+        padding-top: var(--space-3x1);
+        padding-bottom: var(--space-3x1);
+    }
+}
+
+.rowdescription {
+    margin-bottom: 158px;
+    padding-left: 8px;
+    padding-right: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--space-3x1);
+
+    @media only screen and (max-width: 1050px) {
+        flex-direction: column;
+        padding: var(--space-3x1);
+    }
+}
+
+.image-18 {
+    height: 280px;
+    width: 34%;
+    object-fit: cover;
+    border-radius: var(--radius-sm);
+
+    @media only screen and (max-width: 1050px) {
+        width: 100%;
+    }
+}
+
+.columndescripti-8 {
+    width: 58%;
+    display: flex;
+    flex-direction: column;
+
+    @media only screen and (max-width: 1050px) {
+        width: 100%;
+    }
+}
+
+.columnnasiayamb-8 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.hidanganutama {
+    margin-top: -8px;
+    position: relative;
+}
+
+.description-29 {
+    margin-top: 18px;
+    width: 76%;
+    line-height: 28px;
+
+    @media only screen and (max-width: 1050px) {
+        width: 100%;
+    }
+}
+
+.rowrpcounter {
+    margin-top: 76px;
+    gap: var(--space-12x1);
+    display: flex;
+    align-items: center;
+}
+
+.beli-8 {
+    min-width: 124px;
+    border-radius: 16px !important;
+}
+
+.row_two-2 {
+    background-color: var(--indigo_700);
+    box-shadow: var(--shadow-xs);
+    width: 44%;
+    display: flex;
+    position: absolute;
+    bottom: 3cm;
+    right: 20%;
+    padding: 18px var(--space-3x1);
+    margin: auto;
+    border-radius: var(--radius-sm);
+}
+
+.description-28 {
+    color: var(--black_900) !important;
+    width: 52%;
+    line-height: 28px;
+    padding: 20px;
+    margin-right: 1cm;
+}

@@ -1,0 +1,175 @@
+.appetizers {
+    color: var(--gray_300) !important;
+    font-size: 20px;
+    font-weight: 400;
+    padding: var(--space-xs) var(--space-2xl);
+}
+
+/* Mengatur tampilan link agar mencakup seluruh area */
+.menu-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+}
+
+.columnnasiayamb-4 {
+    gap: var(--space-lg);
+    display: flex;
+    background-color: var(--blue_gray_100);
+    width: 100%;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: center;
+    padding: var(--space-md);
+    border-radius: var(--radius-sm);
+
+    @media only screen and (max-width: 1050px) {
+        width: 100%;
+    }
+}
+
+.image_one-8 {
+    height: 154px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: var(--radius-sm);
+
+    @media only screen and (max-width: 1050px) {
+        height: auto;
+    }
+}
+
+.beli {
+    margin-bottom: 6px;
+    margin-left: 28px;
+    margin-right: 28px;
+    align-self: stretch;
+    border-radius: 16px !important;
+
+    @media only screen and (max-width: 1050px) {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+.columnnasiayamb {
+    gap: var(--space-lg);
+    background-color: var(--blue_gray_100);
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    padding: var(--space-md);
+    margin: auto;
+    border-radius: var(--radius-sm);
+}
+
+.columnrestoranm-6 {
+    margin-bottom: 128px;
+    gap: var(--space-16xl);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media only screen and (max-width: 550px) {
+        gap: var(--space-8xl);
+    }
+}
+
+.rowmenu_one {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    @media only screen and (max-width: 1050px) {
+        width: 100%;
+    }
+}
+
+.stacksearch {
+    height: 754px;
+    position: relative;
+}
+
+.column_three-2 {
+    flex: 1;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    margin: auto;
+}
+
+.column_two-2 {
+    padding-top: var(--space-4xl);
+    padding-bottom: var(--space-4xl);
+    background: linear-gradient(180deg, #0d1b2a, #000000);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media only screen and (max-width: 550px) {
+        padding-top: var(--space-3xl);
+        padding-bottom: var(--space-3xl);
+    }
+}
+
+.column_one-4 {
+    margin-bottom: 150px;
+    padding-left: var(--space-10xl);
+    padding-right: var(--space-10xl);
+    gap: var(--space-4xl);
+    display: flex;
+    flex-direction: column;
+
+    @media only screen and (max-width: 1050px) {
+        padding: var(--space-3xl);
+    }
+
+    @media only screen and (max-width: 550px) {
+        padding-left: var(--space-3xl);
+        padding-right: var(--space-3xl);
+    }
+}
+
+.columnsearch {
+    margin-left: 116px;
+    margin-right: 118px;
+    gap: var(--space-2xl);
+    display: flex;
+    flex-direction: column;
+
+    @media only screen and (max-width: 1050px) {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+.search {
+    color: var(--black_900) !important;
+    border-radius: var(--radius-xl);
+}
+
+.rowappetizers {
+    gap: var(--space-lg);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.rownasiayambaka {
+    display: flex;
+    flex-wrap: wrap;
+    /* Agar item bisa membungkus ke baris berikutnya jika terlalu banyak */
+    justify-content: center;
+    /* Menyelaraskan item secara horizontal di tengah */
+    gap: 20px;
+    /* Jarak antara item */
+
+    @media only screen and (max-width: 1050px) {
+        flex-direction: column;
+    }
+}

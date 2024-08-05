@@ -1,0 +1,327 @@
+/* 1. Textarea CSS */
+.ui.textarea.round {
+    border-radius: var(--radius-sm);
+}
+
+.ui.textarea.size-xs {
+    height: 100px;
+    font-size: 20px;
+    padding: var(--space-7xl);
+}
+
+.ui.textarea.tarfillindigo700.indigo_700 {
+    background-color: var(--indigo_700);
+}
+
+/* 2. Button CSS */
+
+.ui.button.square {
+    border-radius: 0px;
+}
+
+.ui.button.round {
+    border-radius: var(--radius-lg);
+}
+
+.ui.button.size-md {
+    height: 36px;
+    padding-left: var(--space-5xl);
+    padding-right: var(--space-5xl);
+    font-size: 25px;
+}
+
+.ui.button.size-xs {
+    height: 34px;
+    padding-left: var(--space-xl);
+    padding-right: var(--space-xl);
+    font-size: 15px;
+}
+
+.ui.button.size-lg {
+    height: 38px;
+    padding-left: var(--space-5xl);
+    padding-right: var(--space-5xl);
+    font-size: 20px;
+}
+
+.ui.button.size-xl {
+    height: 44px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 20px;
+}
+
+.ui.button.size-sm {
+    height: 34px;
+    padding-left: var(--space-9xl);
+    padding-right: var(--space-9xl);
+    font-size: 20px;
+}
+
+.ui.button.fill.blue_gray_900 {
+    background-color: var(--blue_gray_900);
+    color: var(--gray_300);
+}
+
+.ui.button.fill.gray_300 {
+    background-color: var(--gray_300);
+    color: var(--blue_gray_900);
+}
+
+.ui.button.fill.blue_gray_100 {
+    background-color: var(--blue_gray_100);
+    color: var(--black_900_99);
+}
+
+.ui.button.fill.red_900 {
+    background-color: var(--red_900);
+    color: var(--gray_300);
+}
+
+.ui.button.fill.indigo_700 {
+    background-color: var(--indigo_700);
+    color: var(--blue_gray_900);
+}
+
+.ui.button {
+    text-align: center;
+    display: flex;
+    cursor: pointer;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+/* 3. Input CSS */
+
+.ui.input.round {
+    border-radius: var(--radius-5xl1);
+}
+
+.ui.input.size-xs {
+    height: 40px;
+    padding-left: var(--space-3xl);
+    padding-right: var(--space-3xl);
+    font-size: 20px;
+}
+
+.ui.input.size-sm {
+    height: 50px;
+    padding-left: var(--space-8xl);
+    padding-right: var(--space-8xl);
+    font-size: 20px;
+}
+
+.ui.input.size-md {
+    height: 54px;
+    font-size: 25px;
+}
+
+.ui.input.size-lg {
+    height: 62px;
+    padding-left: var(--space-9xl);
+    padding-right: var(--space-9xl);
+    font-size: 20px;
+}
+
+.ui.input.fill.indigo_700 {
+    background-color: var(--indigo_700);
+    color: var(white_a700);
+}
+
+.ui.input.fill.blue_gray_100 {
+    background-color: var(--blue_gray_100);
+    color: var(--black_900_7f);
+}
+
+.ui.input.fill.gray_300 {
+    background-color: var(--gray_300);
+    color: var(--black_900_bf);
+}
+
+.ui.input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: text;
+}
+
+/* 4. Text CSS */
+
+.ui.text.size-textxs {
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ui.text.size-texts {
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ui.text.size-textmd {
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ui.text.size-textlg {
+    font-size: 25px;
+    font-weight: 400;
+    font-style: normal;
+    margin-right: 1cm;
+
+    @media only screen and (max-width: 1050px) {
+        font-size: 23px;
+    }
+
+    @media only screen and (max-width: 550px) {}
+
+    font-size: 21px;
+}
+
+.ui.text.size-textxl {
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+
+    @media only screen and (max-width: 1050px) {}
+
+    font-size: 28px;
+
+    @media only screen and (max-width: 550px) {
+        font-size: 26px;
+    }
+}
+
+.ui.text.size-text2xl {
+    font-size: 40px;
+    font-weight: 400;
+    font-style: normal;
+
+    @media only screen and (max-width: 1050px) {
+        font-size: 38px;
+    }
+
+    @media only screen and (max-width: 550px) {
+        font-size: 36px;
+    }
+}
+
+.ui.text.size-text3xl {
+    font-size: 45px;
+    font-weight: 400;
+    font-style: normal;
+
+    @media only screen and (max-width: 1050px) {}
+
+    font-size: 41px;
+
+    @media only screen and (max-width: 550px) {
+        font-size: 35px;
+    }
+}
+
+.ui.text.size-text4xl {
+    font-size: 50px;
+    font-weight: 400;
+    font-style: normal;
+
+    @media only screen and (max-width: 1050px) {
+        font-size: 46px;
+    }
+
+    @media only screen and (max-width: 550px) {
+        font-size: 40px;
+    }
+}
+
+.ui.text {
+    color: var(--white_a700);
+    font-family: Istok Web;
+}
+
+
+/* 5. Heading CSS  */
+.ui.heading.size-headingxs {
+    font-size: 20px;
+    font-weight: 700;
+    font-style: bold;
+}
+
+.ui.heading.size-headings {
+    font-size: 22px;
+    font-weight: 700;
+    font-style: bold;
+}
+
+.ui.heading.size-headingmd {
+    font-size: 25px;
+    font-weight: 700;
+    font-style: bold;
+
+    @media only screen and (max-width: 1050px) {
+        font-size: 23px;
+    }
+
+    @media only screen and (max-width: 550px) {
+        font-size: 21px;
+    }
+}
+
+.ui.heading.size-headinglg {
+    font-size: 30px;
+    font-weight: 700;
+    font-style: bold;
+
+    @media only screen and (max-width: 1050px) {
+        font-size: 28px;
+    }
+
+    @media only screen and (max-width: 550px) {
+        font-size: 26px;
+    }
+}
+
+.ui.heading.size-headingxl {
+    font-size: 35px;
+    font-weight: 700;
+    font-style: bold;
+
+    @media only screen and (max-width: 1050px) {
+        font-size: 33px;
+    }
+
+    @media only screen and (max-width: 550px) {
+        font-size: 31px;
+    }
+}
+
+.ui.heading.size-heading2xl {
+    font-size: 50px;
+    font-weight: 700;
+    font-style: bold;
+
+    @media only screen and (max-width: 1050px) {
+        font-size: 46px;
+    }
+
+    @media only screen and (max-width: 550px) {
+        font-size: 40px;
+    }
+}
+
+.ui.heading {
+    color: var(--black_900);
+    font-family: Istok Web;
+}
+
+/* 6. Container CSS */
+.container-xs {
+    max-width: 1060px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
